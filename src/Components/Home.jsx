@@ -6,7 +6,12 @@ export default function Home() {
       <header>
         <BarraNavegacion />
       </header>
-      Hola soy Home
+      <body>
+      <p> Body Home</p>
+      </body>
+      <footer>
+        <p>footer home</p>
+      </footer>
     </>
   );
 }

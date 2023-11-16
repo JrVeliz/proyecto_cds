@@ -1,9 +1,14 @@
 import { Link, useLocation } from "react-router-dom";
-
+import "../Styles/BarraNavegacion.css";
 export default function BarraNavegacion() {
   const location = useLocation();
   return (
-    <div>
+    <nav className="barra-navegacion">
+      <div className="containerImg">
+        <Link className="logoLink" to="/">
+          <p className="logo">Logo</p>
+        </Link>
+      </div>
       <div className="containerMenus">
         <ul>
           <li className={location.pathname === "/" ? "active" : ""}>
@@ -33,6 +38,6 @@ export default function BarraNavegacion() {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
