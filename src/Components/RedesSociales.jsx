@@ -20,6 +20,7 @@ export default function RedesSociales() {
           </figure>
           <div className="social-media-text">
             <h3 >Facebook</h3>
+            <u>@Empresa_xd</u>
             <p>Publicaciones de promociones y contactar a nuestros gerentes.</p>
             <a class="btn btn-primary" href="https://facebook.com" target="_blank" rel="noreferrer" role="button">Seguir</a>
           </div>
@@ -33,6 +34,7 @@ export default function RedesSociales() {
           </figure>
           <div className="social-media-text">
             <h3>Twitter</h3>
+            <u>@Empresa_xd</u>
             <p>Informacion importante sobre nuevos cambios y promociones.</p>
             <a class="btn btn-primary" href="https://twitter.com" target="_blank" rel="noreferrer" role="button">Seguir</a>
           </div>
@@ -46,6 +48,7 @@ export default function RedesSociales() {
           </figure>
           <div className="social-media-text">
             <h3>Instagram</h3>
+            <u>@Empresa_xd</u>
             <p>Publiciones de ofertas y nuevas productos.</p>
             <a class="btn btn-primary" href="https://instagram.com" target="_blank" rel="noreferrer" role="button">Seguir</a>
           </div>
