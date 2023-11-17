@@ -1,13 +1,16 @@
 import { Link, useLocation } from "react-router-dom";
 import "../Styles/BarraNavegacion.css";
+import logoImagen from "../assets/logos/softlivepestana.jpeg";
+
 export default function BarraNavegacion() {
   const location = useLocation();
   return (
     <nav className="barra-navegacion">
       <div className="containerImg">
         <Link className="logoLink" to="/">
-          <p className="logo">Logo</p>
+        <img src={logoImagen} alt="Logo" className="logo" style={{ width: "75px", height: "auto" }} />
         </Link>
+        xd
       </div>
       <div className="containerMenus">
         <ul>
