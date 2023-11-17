@@ -7,7 +7,7 @@ export default function QuienesSomos() {
   return (
     <>
       <BarraNavegacion />
-      <div className="container mt-4 text-center" style={{"height":"500px"}}>
+      <div className="container mt-4 text-center" style={{"height":"550px"}}>
         <img
           src={nuestraImagen}
           alt="Imagen de Quiénes Somos"

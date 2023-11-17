@@ -1,11 +1,16 @@
+.container-info{
+  background-image: url("https://wallpaper-house.com/data/out/5/wallpaper2you_68822.png");
+  background-size: cover;
+  height:600px;
+}
 .logos {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
 }
 
 .logos img {
+  margin: 9px;
   width: 100px;
   height: 100px;
 }
