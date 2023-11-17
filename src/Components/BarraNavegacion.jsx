@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import "../Styles/BarraNavegacion.css";
-import logoImagen from "../assets/logos/softlivepestana.jpeg";
+import logoImagen from "../assets/logos/softlivepestana.png";
+
 
 export default function BarraNavegacion() {
   const location = useLocation();

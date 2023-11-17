@@ -1,0 +1,69 @@
+.container-info{
+  background-image: url("https://wallpaper-house.com/data/out/5/wallpaper2you_68822.png");
+  background-size: cover;
+  height:600px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos img {
+  margin: 9px;
+  width: 100px;
+  height: 100px;
+}
+
+.titulo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.titulo h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.integrante {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.integrante h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.integrante ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.integrante ul li {
+  margin-top: 10px;
+}
+
+.integrante ul li p {
+  font-size: 16px;
+}
+
+.informacion {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.informacion p {
+  font-size: 16px;
+}
+
+.informacion strong {
+  font-weight: bold;
+}

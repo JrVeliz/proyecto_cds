@@ -19,11 +19,12 @@
 }
 
 .container-perfiles {
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  height: 450px;
 }
 
 .perfil-link {
@@ -32,10 +33,11 @@
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 1rem;
+  text-decoration: none;
 }
 
 .perfil {
-  border-radius: 30px;
+  border-radius: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +54,8 @@
 }
 
 .perfil h3 {
-  margin: 15px;
+  margin: 10px;
   color: #00ffff;
   text-decoration: none;
+  font-size:21px;
 }

@@ -5,3 +5,4 @@ export { default as Productos } from "./Productos";
 export { default as QuienesSomos } from "./QuienesSomos";
 export { default as RedesSociales } from "./RedesSociales";
 export { default as UbicacionReal } from "./UbicacionReal";
+export {default as Footer} from "./Footer";

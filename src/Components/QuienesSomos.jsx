@@ -1,21 +1,20 @@
 import React from "react";
 import BarraNavegacion from "./BarraNavegacion";
 import nuestraImagen from "../assets/logos/softlivegeneral.png";
+import {Footer} from "./ComponentsBarrel";
 
 export default function QuienesSomos() {
   return (
-    <div>
-      <header>
-        <BarraNavegacion />
-      </header>
-      <div className="container mt-4 text-center">
+    <>
+      <BarraNavegacion />
+      <div className="container mt-4 text-center" style={{"height":"550px"}}>
         <img
           src={nuestraImagen}
           alt="Imagen de Quiénes Somos"
           className="img-fluid mx-auto"
           style={{ width: "25%", height: "auto" }}
         />
-          <p>
+        <p>
           <strong>Misión:</strong> Nuestra misión es liderar la industria
           proporcionando soluciones innovadoras y de vanguardia que superen las
           expectativas de nuestros clientes. Nos esforzamos por ser pioneros en
@@ -32,6 +31,8 @@ export default function QuienesSomos() {
           seguir el camino de la excelencia y la responsabilidad social.
         </p>
       </div>
-    </div>
+      <Footer/>
+    </>
+    
   );
 }

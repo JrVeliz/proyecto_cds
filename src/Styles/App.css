@@ -4,32 +4,14 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
+  height: 100%;
 }
-
-body header {
-  background-color: #000; 
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+html {
+  height: 100%;
 }
-
-body header p {
-  margin: 0;
-  font-size: 28px;
-}
-
 body footer {
-  background-color: #000; 
+  background-color: #252525;
   color: #fff;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-body footer p {
-  margin: 0;
-  font-size: 16px;
 }
