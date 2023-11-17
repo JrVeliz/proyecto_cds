@@ -2,16 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import BarraNavegacion from "./BarraNavegacion";
 import Ronquillo from "../assets/perfilRonquillo.JPG";
+import Dylan from "../assets/Dylan.jpeg";
 import "../Styles/HojasDeVida.css";
+import {Footer} from "./ComponentsBarrel";
 export default function HojasDeVida() {
   return (
     <div>
-      <header>
-        <BarraNavegacion />
-      </header>
+      <BarraNavegacion />
       <div className="info-perfiles">
         <h1 className="titulo-perfiles">Hojas de Vida</h1>
-        <p className="short-descrp">Accede a cada CV de los integrantes dándoles click</p>
+        <p className="short-descrp">
+          Accede a cada CV de los integrantes dándoles click
+        </p>
       </div>
       <div className="container-perfiles">
         <Link to="/perfil_ronquillo" className="perfil-link">
@@ -30,7 +32,7 @@ export default function HojasDeVida() {
 
         <Link to="/perfil_sanchez" className="perfil-link">
           <div className="perfil">
-            <img src={Ronquillo} alt="Sanchez Img" />
+            <img src={Dylan} alt="Sanchez Img" />
             <h3>Sanchez Rak</h3>
           </div>
         </Link>
@@ -42,7 +44,7 @@ export default function HojasDeVida() {
           </div>
         </Link>
       </div>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }

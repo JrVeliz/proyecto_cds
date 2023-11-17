@@ -1,6 +1,7 @@
 import React from "react";
 import BarraNavegacion from "./BarraNavegacion";
 import "bootstrap/dist/css/bootstrap.min.css"; // Importacion de la hoja de estilos de Bootstrap utilizada para la pagina
+import {Footer} from "./ComponentsBarrel";
 
 // Importación de imágenes utilizadas para la descripcion de productos
 import imagen1 from "../assets/productos/Skype.png";
@@ -84,9 +85,7 @@ export default function Productos() {
   // Nos permite mostrar los elementos de los productos de manera mas comprimida y ordenada a traves de la invocación del array
   return (
     <div>
-      <header>
-        <BarraNavegacion />
-      </header>
+      <BarraNavegacion />
       <div className="container mt-4">
         <h2 className="mb-4">Productos Empresariales</h2>
         <div className="row">
@@ -108,6 +107,7 @@ export default function Productos() {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

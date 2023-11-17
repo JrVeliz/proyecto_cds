@@ -1,0 +1,64 @@
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logos img {
+  width: 100px;
+  height: 100px;
+}
+
+.titulo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.titulo h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.integrante {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.integrante h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.integrante ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.integrante ul li {
+  margin-top: 10px;
+}
+
+.integrante ul li p {
+  font-size: 16px;
+}
+
+.informacion {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.informacion p {
+  font-size: 16px;
+}
+
+.informacion strong {
+  font-weight: bold;
+}
