@@ -1,3 +1,4 @@
+export {default as Home} from "./Home";
 export { default as Contactenos } from "./Contactenos";
 export { default as HojasDeVida } from "./HojasDeVida";
 export { default as Productos } from "./Productos";

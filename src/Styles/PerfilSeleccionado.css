@@ -1,0 +1,22 @@
+/* Estilos para la imagen */
+.imgCv img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  max-height: 1200px;
+}
+/* Estilos para el enlace "Volver a Perfiles" */
+.actionsCV a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.actionsCV a:hover {
+  background-color: #ddd;
+}
