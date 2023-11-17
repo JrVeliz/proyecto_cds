@@ -10,7 +10,7 @@ export default function RedesSociales() {
         <h1>Redes Sociales</h1>
         <p>Visitenos en nuestras redes sociales para futuras ofertas/promociones y nuevos productos</p>
       </div>
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', backgroundColor:'lightgray' }}>
         <div className="social-media-container">
           <figure className="social-media-icon">
             <img
@@ -28,7 +28,7 @@ export default function RedesSociales() {
         <div className="social-media-container">
           <figure className="social-media-icon">
             <img
-              src="https://img.freepik.com/vector-premium/nuevo-logotipo-twitter-x-2023-descarga-vector-oficial-logotipo-twitter-x_691560-10797.jpg"
+              src="https://seeklogo.com/images/T/twitter-x-logo-101C7D2420-seeklogo.com.png?v=638258862800000000"
               className="figure-img img-fluid rounded-sm" alt="..."></img>
             <figcaption className="figure-caption text-end"></figcaption>
           </figure>
@@ -42,7 +42,7 @@ export default function RedesSociales() {
         <div className="social-media-container">
           <figure className="social-media-icon">
             <img
-              src="https://img.freepik.com/vector-premium/icono-instagram-logotipo-insignia-moderna_578229-124.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
               className="figure-img img-fluid rounded-sm" alt="..."></img>
             <figcaption className="figure-caption text-end"></figcaption>
           </figure>
