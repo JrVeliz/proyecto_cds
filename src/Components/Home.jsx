@@ -7,7 +7,7 @@ export default function Home() {
         <BarraNavegacion />
       </header>
       <body>
-      <p> Body Home</p>
+        <p> Body Home</p>
       </body>
       <footer>
         <p>footer home</p>
@@ -15,4 +15,3 @@ export default function Home() {
     </>
   );
 }
-

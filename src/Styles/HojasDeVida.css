@@ -1,0 +1,58 @@
+.info-perfiles {
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  background-image: url("https://images2.alphacoders.com/120/1209846.png");
+  background-size: cover;
+}
+
+.titulo-perfiles {
+  font-size: 2rem;
+  color: #96f5f5;
+  margin-bottom: 1rem;
+}
+
+.short-descrp {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.container-perfiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.perfil-link {
+  width: 250px;
+  height: 200;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+
+.perfil {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://www.hdwallpapers.in/download/spiral_lines_abstract_4k-HD.jpg");
+}
+
+.perfil img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+  margin: 15px;
+}
+
+.perfil h3 {
+  margin: 15px;
+  color: #00ffff;
+  text-decoration: none;
+}
