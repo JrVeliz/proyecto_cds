@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import BarraNavegacion from "./BarraNavegacion";
 import Ronquillo from "../assets/perfilRonquillo.JPG";
 import Dylan from "../assets/Dylan.jpeg";
+import Vera from "../assets/perfilVera.jpeg";
 import "../Styles/HojasDeVida.css";
-import {Footer} from "./ComponentsBarrel";
+import { Footer } from "./ComponentsBarrel";
+import Zamora from "../assets/zamoraPerfil.jpeg";
 export default function HojasDeVida() {
   return (
     <div>
@@ -25,7 +27,7 @@ export default function HojasDeVida() {
 
         <Link to="/perfil_zamora" className="perfil-link">
           <div className="perfil">
-            <img src={Ronquillo} alt="Zamora Img" />
+            <img src={Zamora} alt="Zamora Img" />
             <h3>Zamora Zhingri</h3>
           </div>
         </Link>
@@ -37,10 +39,10 @@ export default function HojasDeVida() {
           </div>
         </Link>
 
-        <Link to="/perfil_moran" className="perfil-link">
+        <Link to="/perfil_vera" className="perfil-link">
           <div className="perfil">
-            <img src={Ronquillo} alt="Morán Img" />
-            <h3>Morán Choéz</h3>
+            <img src={Vera} alt="Vera Img" />
+            <h3>Vera Plua</h3>
           </div>
         </Link>
       </div>

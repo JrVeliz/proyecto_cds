@@ -9,7 +9,7 @@ import {
   RedesSociales,
   UbicacionReal,
 } from "./Components/ComponentsBarrel";
-import { RonquilloCv, ZamoraCv,SanchezCv,MoranCv } from "./Components/PerfilSeleccionado";
+import { RonquilloCv, ZamoraCv,SanchezCv,VeraCv } from "./Components/PerfilSeleccionado";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route path="/perfil_ronquillo" element={<RonquilloCv />} />
           <Route path="/perfil_zamora" element={<ZamoraCv/>} />
           <Route path="/perfil_sanchez" element={<SanchezCv/>} />
-          <Route path="/perfil_moran" element={<MoranCv/>} />
+          <Route path="/perfil_vera" element={<VeraCv/>} />
         </Routes>
       </BrowserRouter>
     </div>

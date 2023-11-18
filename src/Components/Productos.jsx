@@ -1,7 +1,7 @@
 import React from "react";
 import BarraNavegacion from "./BarraNavegacion";
 import "bootstrap/dist/css/bootstrap.min.css"; // Importacion de la hoja de estilos de Bootstrap utilizada para la pagina
-import {Footer} from "./ComponentsBarrel";
+import { Footer } from "./ComponentsBarrel";
 
 // Importación de imágenes utilizadas para la descripcion de productos
 import imagen1 from "../assets/productos/Skype.png";
@@ -22,64 +22,76 @@ export default function Productos() {
   const productosEmpresariales = [
     {
       nombre: "Skype",
-      descripcion: "Plataforma de comunicación que permite realizar llamadas de voz y video, así como enviar mensajes instantáneos y compartir archivos.",
+      descripcion:
+        "Plataforma de comunicación que permite realizar llamadas de voz y video, así como enviar mensajes instantáneos y compartir archivos.",
       imagen: imagen1,
     },
     {
       nombre: "Avast",
-      descripcion: "Potente software antivirus que proporciona protección en tiempo real contra virus, malware y amenazas en línea.",
+      descripcion:
+        "Potente software antivirus que proporciona protección en tiempo real contra virus, malware y amenazas en línea.",
       imagen: imagen2,
     },
     {
       nombre: "Office",
-      descripcion: "Suite de productividad basada en la nube que incluye aplicaciones esenciales como Word, Excel y PowerPoint, permitiendo colaboración en tiempo real y acceso desde cualquier dispositivo.",
+      descripcion:
+        "Suite de productividad basada en la nube que incluye aplicaciones esenciales como Word, Excel y PowerPoint, permitiendo colaboración en tiempo real y acceso desde cualquier dispositivo.",
       imagen: imagen3,
     },
     {
       nombre: "Adobe Creative Cloud",
-      descripcion: "Descripción del Producto 3: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      descripcion:
+        "Descripción del Producto 3: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
       imagen: imagen4,
     },
     {
       nombre: "Windows 10",
-      descripcion: "El sistema operativo más reciente de Microsoft, reconocido por su interfaz intuitiva, seguridad mejorada y amplia compatibilidad de hardware y software.",
+      descripcion:
+        "El sistema operativo más reciente de Microsoft, reconocido por su interfaz intuitiva, seguridad mejorada y amplia compatibilidad de hardware y software.",
       imagen: imagen5,
     },
     {
       nombre: "AutoCAD",
-      descripcion: "Software de diseño asistido por computadora (CAD) utilizado en arquitectura e ingeniería para la creación precisa de planos y modelos 3D.",
+      descripcion:
+        "Software de diseño asistido por computadora (CAD) utilizado en arquitectura e ingeniería para la creación precisa de planos y modelos 3D.",
       imagen: imagen6,
     },
     {
       nombre: "QuickBooks",
-      descripcion: "Herramienta de contabilidad y gestión financiera diseñada para pequeñas empresas, facilitando la facturación, seguimiento de gastos y generación de informes fiscales.",
+      descripcion:
+        "Herramienta de contabilidad y gestión financiera diseñada para pequeñas empresas, facilitando la facturación, seguimiento de gastos y generación de informes fiscales.",
       imagen: imagen7,
     },
     {
       nombre: "McAfee Antivirus",
-      descripcion: "Solución de seguridad informática que protege contra virus, malware y amenazas en línea, brindando tranquilidad y seguridad en la navegación.",
+      descripcion:
+        "Solución de seguridad informática que protege contra virus, malware y amenazas en línea, brindando tranquilidad y seguridad en la navegación.",
       imagen: imagen8,
     },
     {
       nombre: "Salesforce",
-      descripcion: "Plataforma de CRM basada en la nube que ayuda a empresas a gestionar clientes, ventas y servicios de manera eficiente, impulsando la colaboración y la productividad.",
+      descripcion:
+        "Plataforma de CRM basada en la nube que ayuda a empresas a gestionar clientes, ventas y servicios de manera eficiente, impulsando la colaboración y la productividad.",
       imagen: imagen9,
     },
     {
       nombre: "VMware",
-      descripcion: "Software de virtualización que permite la creación de entornos virtuales, facilitando la gestión y optimización de recursos informáticos.",
+      descripcion:
+        "Software de virtualización que permite la creación de entornos virtuales, facilitando la gestión y optimización de recursos informáticos.",
       imagen: imagen10,
     },
     {
       nombre: "Unity",
-      descripcion: "Plataforma de desarrollo de videojuegos y aplicaciones en 2D y 3D, facilitando la creación y despliegue multiplataforma.",
+      descripcion:
+        "Plataforma de desarrollo de videojuegos y aplicaciones en 2D y 3D, facilitando la creación y despliegue multiplataforma.",
       imagen: imagen11,
     },
     {
       nombre: "Zendesk:",
-      descripcion: "Plataforma de atención al cliente y soporte que centraliza las interacciones, mejorando la eficiencia y la satisfacción del cliente a través de diversos canales de comunicación.",
+      descripcion:
+        "Plataforma de atención al cliente y soporte que centraliza las interacciones, mejorando la eficiencia y la satisfacción del cliente a través de diversos canales de comunicación.",
       imagen: imagen12,
-    },  
+    },
   ];
 
   // Nos permite mostrar los elementos de los productos de manera mas comprimida y ordenada a traves de la invocación del array
@@ -96,18 +108,20 @@ export default function Productos() {
                   src={producto.imagen}
                   className="card-img-top img-fluid"
                   alt={`Imagen de ${producto.nombre}`}
-                  style={{ maxHeight: "500px" }} 
+                  style={{ maxHeight: "500px" }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h3 className="card-title">{producto.nombre}</h3>
-                  <p className="card-text flex-grow-1">{producto.descripcion}</p>
+                  <p className="card-text flex-grow-1">
+                    {producto.descripcion}
+                  </p>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

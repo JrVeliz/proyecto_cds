@@ -1,9 +1,11 @@
 import BarraNavegacion from "./BarraNavegacion";
 import Ronquillo from "../assets/Ronquillo_CV.png";
 import Dylan from "../assets/Dylan_CV.jpeg";
+import Vera from "../assets/Vera_CV.jpeg";
+import Zamora from "../assets/Zamora_CV.jpeg";
 import { Link } from "react-router-dom";
 import "../Styles/PerfilSeleccionado.css";
-import {Footer} from "./ComponentsBarrel";
+import { Footer } from "./ComponentsBarrel";
 export const RonquilloCv = () => {
   return (
     <div>
@@ -22,7 +24,7 @@ export const ZamoraCv = () => {
       <BarraNavegacion />
       {volverAPerfiles()}
       <div className="imgCv">
-        <img src={Ronquillo} alt="Zamora CV" />
+        <img src={Zamora} alt="Zamora CV" />
       </div>
       <Footer />
     </div>
@@ -40,13 +42,13 @@ export const SanchezCv = () => {
     </div>
   );
 };
-export const MoranCv = () => {
+export const VeraCv = () => {
   return (
     <div>
       <BarraNavegacion />
       {volverAPerfiles()}
       <div className="imgCv">
-        <img src={Ronquillo} alt="Morán CV" />
+        <img src={Vera} alt="Vera CV" />
       </div>
       <Footer />
     </div>

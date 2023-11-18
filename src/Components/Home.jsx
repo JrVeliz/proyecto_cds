@@ -34,7 +34,7 @@ export default function Home() {
               <p>Nelson Alfredo Zamora Zhingri</p>
             </li>
             <li>
-              <p>MorÁn Choéz Joan Dalemberg</p>
+              <p>Joan Vera Plua</p>
             </li>
           </ul>
         </div>
